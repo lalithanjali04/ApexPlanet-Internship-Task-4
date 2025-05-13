@@ -28,6 +28,9 @@ A responsive personal portfolio showcasing:
 
 ### 2. ✅ To-Do List Application
 
+![Screenshot 2025-05-13 111658](https://github.com/user-attachments/assets/e7868c5b-c6dc-40d8-83be-87e64e9b7dd3)
+
+
 A basic but functional to-do list app built with vanilla JavaScript.
 
 **Features**:
@@ -39,6 +42,9 @@ A basic but functional to-do list app built with vanilla JavaScript.
 ---
 
 ### 3. 🛍️ Product Listing Page
+
+![Screenshot 2025-05-13 111620](https://github.com/user-attachments/assets/ef59fab5-2558-411e-ace4-62042e0dd063)
+
 
 A product showcase web page mimicking an e-commerce front.
 
