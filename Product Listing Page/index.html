@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Listing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Our Products</h1>
+            <p>Find the perfect product for your needs</p>
+        </header>
+        
+        <div class="controls">
+            <div class="filter-section">
+                <h3>Filters</h3>
+                <div class="filter-group">
+                    <h4>Categories</h4>
+                    <div class="category-filters">
+                        <label><input type="checkbox" name="category" value="electronics" checked> Electronics</label>
+                        <label><input type="checkbox" name="category" value="clothing" checked> Clothing</label>
+                        <label><input type="checkbox" name="category" value="home" checked> Home & Kitchen</label>
+                        <label><input type="checkbox" name="category" value="books" checked> Books</label>
+                    </div>
+                </div>
+                
+                <div class="filter-group">
+                    <h4>Price Range</h4>
+                    <div class="price-range">
+                        <input type="range" id="price-slider" min="0" max="1000" value="1000">
+                        <div class="price-values">
+                            <span>$0</span>
+                            <span id="max-price-display">$1000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sort-section">
+                <h3>Sort By</h3>
+                <select id="sort-options">
+                    <option value="featured">Featured</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                    <option value="rating">Rating: High to Low</option>
+                    <option value="name-asc">Name: A to Z</option>
+                    <option value="name-desc">Name: Z to A</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="product-grid" id="product-grid">
+            <!-- Products will be dynamically inserted here -->
+        </div>
+        
+        <div class="no-results" id="no-results" style="display: none;">
+            <p>No products match your filters. Try adjusting your criteria.</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
