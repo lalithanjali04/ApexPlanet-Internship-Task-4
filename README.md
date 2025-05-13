@@ -9,6 +9,9 @@ This repository contains the completed **Task 4** for the ApexPlanet Internship 
 
 ### 1. 🌐 Personal Portfolio Website
 
+![Screenshot 2025-05-13 111611](https://github.com/user-attachments/assets/7a7f8291-101a-4449-9154-40fdcf83379a)
+
+
 A responsive personal portfolio showcasing:
 - Name, photo, and introduction
 - Projects section
@@ -55,14 +58,5 @@ A product showcase web page mimicking an e-commerce front.
 
 ---
 
-## 📸 Project Screenshots
 
-Screenshots of all three projects are included in the `screenshots/` folder:
-- Portfolio
-- To-Do List
-- Product Listing Page
-
----
-
-## 📂 Folder Structure
 
